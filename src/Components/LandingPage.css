@@ -1,0 +1,27 @@
+/* LandingPage.css */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    background-image: url("C:\Users\Admin\Downloads\event1.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+.get-started-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: hsl(272, 100%, 50%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-started-button:hover {
+    background-color: #0056b3;
+}

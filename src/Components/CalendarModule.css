@@ -1,0 +1,66 @@
+/* CalendarModule.css */
+
+.calendar-container {
+  max-width: 800px; /* Set a maximum width for the calendar */
+  margin: 0 auto; /* Center the calendar on the page */
+  padding: 20px; /* Add padding around the calendar */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for the calendar */
+.rbc-calendar {
+  border: 1px solid #ddd; /* Light border around the calendar */
+  border-radius: 4px; /* Rounded corners for the calendar */
+}
+
+/* Style for the event slots */
+.rbc-event {
+  background-color: #007bff; /* Blue background for events */
+  color: white; /* White text color for events */
+  border-radius: 4px; /* Rounded corners for events */
+  padding: 5px; /* Padding inside event boxes */
+  text-align: center; /* Center text inside events */
+}
+
+/* Hover effect for events */
+.rbc-event:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the selected slot */
+.rbc-slot-selecting {
+  background-color: rgba(0, 123, 255, 0.3); /* Light blue background for selected slots */
+}
+
+/* Style for the toolbar */
+.rbc-toolbar {
+  display: flex; /* Use flexbox for toolbar layout */
+  justify-content: space-between; /* Space out the toolbar items */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Padding around the toolbar */
+  background-color: #f1f1f1; /* Light background for the toolbar */
+  border-bottom: 1px solid #ddd; /* Border below the toolbar */
+}
+
+/* Style for the buttons in the toolbar */
+.rbc-toolbar button {
+  background-color: #007bff; /* Blue background for buttons */
+  color: white; /* White text color for buttons */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners for buttons */
+  padding: 5px 10px; /* Padding inside buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for buttons */
+.rbc-toolbar button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,92 @@
+/* src/Dashboard.css */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    position: relative;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Individual card background images */
+  .card-module {
+    background-image: url('C:\Users\Admin\Documents\React Project\myapp\public\images\module.jpg');
+  }
+  
+  .card-event-details {
+    background-image: url('C:\Users\Admin\Documents\React Project\myapp\public\images\eventDetails.jpg');
+  }
+  
+  .card-ticket {
+    background-image: url('C:\Users\Admin\Documents\React Project\myapp\public\images\ticket.jpg');
+  }
+  
+  .card-calendar {
+    background-image: url('C:\Users\Admin\Documents\React Project\myapp\public\images\calendar.jpg');
+  }
+  
+  .card-feedback {
+    background-image: url('C:\Users\Admin\Documents\React Project\myapp\public\images\feedback.jpg');
+  }
+  
+  .card-notification {
+    background-image: url('C:\Users\Admin\Documents\React Project\myapp\public\images\notification.jpg');
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card button:hover {
+    background-color: #1565c0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
